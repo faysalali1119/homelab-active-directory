@@ -163,7 +163,7 @@ Set-ADUser -Identity ahassan -ChangePasswordAtLogon $true
 | Logon banner on WS01 | ![Banner](screenshots/05-logon-banner.png) |
 | `gpresult /r` output | ![gpresult](screenshots/06-gpresult.png) |
 | N: drive for a Nursing user | ![Drive](screenshots/07-n-drive.png) |
-| Access denied for a Billing user | ![Denied](screenshots/08-access-denied.png) |
+| Access denied for a locked-out user | ![Denied](screenshots/08-access-denied.png) |
 | Lockout event 4740 | ![Event](screenshots/09-event-4740.png) |
 
 ---
